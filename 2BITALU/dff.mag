@@ -1,0 +1,111 @@
+magic
+tech scmos
+timestamp 1734089879
+<< nwell >>
+rect 66 -34 86 -14
+<< polysilicon >>
+rect 261 116 266 149
+rect 75 -24 77 -22
+rect 14 -41 49 -37
+rect 75 -44 77 -32
+rect 75 -50 77 -48
+<< ndiffusion >>
+rect 74 -48 75 -44
+rect 77 -48 78 -44
+<< pdiffusion >>
+rect 68 -32 70 -24
+rect 74 -32 75 -24
+rect 77 -32 78 -24
+rect 82 -32 84 -24
+<< metal1 >>
+rect 188 149 261 154
+rect 266 149 391 154
+rect 188 148 391 149
+rect -29 127 9 131
+rect 242 127 326 131
+rect 565 127 588 131
+rect -29 119 -16 123
+rect -9 119 2 123
+rect 287 119 325 123
+rect -20 -23 -16 119
+rect -20 -27 14 -23
+rect -20 -37 -16 -27
+rect -20 -41 10 -37
+rect 28 -52 34 16
+rect 52 -6 140 -2
+rect 52 -23 56 -6
+rect 68 -16 84 -15
+rect 261 -16 266 111
+rect 68 -20 70 -16
+rect 74 -20 78 -16
+rect 82 -20 266 -16
+rect 68 -21 84 -20
+rect 40 -27 56 -23
+rect 70 -24 74 -21
+rect 78 -37 82 -32
+rect 287 -37 292 119
+rect 565 56 588 60
+rect 53 -41 71 -37
+rect 78 -41 122 -37
+rect 135 -41 292 -37
+rect 78 -44 82 -41
+rect 70 -51 74 -48
+rect 70 -52 82 -51
+rect 331 -52 337 16
+rect 28 -56 70 -52
+rect 74 -56 78 -52
+rect 82 -56 337 -52
+rect 70 -57 82 -56
+<< metal2 >>
+rect -9 -8 -5 119
+rect -9 -12 122 -8
+rect 14 -27 40 -23
+rect 118 -37 122 -12
+rect 135 -37 140 -6
+<< ntransistor >>
+rect 75 -48 77 -44
+<< ptransistor >>
+rect 75 -32 77 -24
+<< polycontact >>
+rect 261 149 266 154
+rect 261 111 266 116
+rect 10 -41 14 -37
+rect 49 -41 53 -37
+rect 71 -41 75 -37
+<< ndcontact >>
+rect 70 -48 74 -44
+rect 78 -48 82 -44
+<< pdcontact >>
+rect 70 -32 74 -24
+rect 78 -32 82 -24
+<< psubstratepcontact >>
+rect 70 -56 74 -52
+rect 78 -56 82 -52
+<< highvoltnsubcontact >>
+rect 70 -20 74 -16
+rect 78 -20 82 -16
+<< pad >>
+rect -9 119 -5 123
+rect 135 -6 140 -2
+rect 10 -27 14 -23
+rect 40 -27 44 -23
+rect 118 -41 122 -37
+rect 135 -41 140 -37
+use dlatch dlatch_0
+timestamp 1731503720
+transform 1 0 144 0 1 121
+box -144 -121 99 34
+use dlatch dlatch_1
+timestamp 1731503720
+transform 1 0 468 0 1 121
+box -144 -121 99 34
+<< labels >>
+rlabel metal1 -20 129 -20 129 1 D
+rlabel metal1 -20 121 -20 121 1 clk
+rlabel metal1 203 -54 203 -54 1 gnd
+rlabel metal1 203 -18 203 -18 1 vdd
+rlabel metal1 580 129 580 129 1 Q
+rlabel metal1 581 58 581 58 1 Qnot
+rlabel metal1 282 129 282 129 1 node2
+rlabel metal1 110 -39 110 -39 1 node1
+<< end >>

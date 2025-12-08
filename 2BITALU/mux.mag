@@ -1,0 +1,128 @@
+magic
+tech scmos
+timestamp 1734027179
+<< nwell >>
+rect -44 -6 -28 13
+<< polysilicon >>
+rect -37 3 -35 5
+rect -37 -20 -35 -5
+rect -37 -27 -35 -24
+<< ndiffusion >>
+rect -38 -24 -37 -20
+rect -35 -24 -34 -20
+<< pdiffusion >>
+rect -43 -5 -42 3
+rect -38 -5 -37 3
+rect -35 -5 -34 3
+rect -30 -5 -29 3
+<< metal1 >>
+rect -55 49 72 55
+rect -54 28 0 32
+rect -50 20 0 24
+rect 27 20 59 24
+rect -50 -8 -46 20
+rect -43 11 -1 12
+rect -43 7 -42 11
+rect -38 7 -34 11
+rect -30 7 -1 11
+rect -43 6 -1 7
+rect -42 3 -38 6
+rect 6 0 43 6
+rect -54 -12 -41 -8
+rect -34 -14 -30 -5
+rect 55 -8 59 20
+rect 66 15 72 49
+rect 66 9 79 15
+rect 55 -12 83 -8
+rect -34 -18 -15 -14
+rect -34 -20 -30 -18
+rect -42 -29 -38 -24
+rect -50 -30 -28 -29
+rect -50 -34 -42 -30
+rect -38 -34 -34 -30
+rect -30 -34 -28 -30
+rect -50 -35 -28 -34
+rect -19 -49 -15 -18
+rect 55 -20 83 -16
+rect 100 -20 110 -16
+rect -7 -32 6 -26
+rect 55 -48 59 -20
+rect -19 -53 1 -49
+rect 27 -52 59 -48
+rect 68 -40 101 -34
+rect -53 -61 1 -57
+rect 68 -75 74 -40
+rect -50 -81 74 -75
+<< metal2 >>
+rect -7 54 -1 55
+rect -7 50 -6 54
+rect -2 50 -1 54
+rect -7 11 -1 50
+rect -7 7 -6 11
+rect -2 7 -1 11
+rect -7 -27 -1 7
+rect -50 -30 -46 -29
+rect -7 -31 -6 -27
+rect -2 -31 -1 -27
+rect -7 -32 -1 -31
+rect 37 5 43 6
+rect 37 1 38 5
+rect 42 1 43 5
+rect -50 -76 -46 -34
+rect -50 -81 -46 -80
+rect 37 -76 43 1
+rect 37 -80 38 -76
+rect 42 -80 43 -76
+rect 37 -81 43 -80
+<< ntransistor >>
+rect -37 -24 -35 -20
+<< ptransistor >>
+rect -37 -5 -35 3
+<< polycontact >>
+rect -41 -12 -37 -8
+<< ndcontact >>
+rect -42 -24 -38 -20
+rect -34 -24 -30 -20
+<< pdcontact >>
+rect -42 -5 -38 3
+rect -34 -5 -30 3
+<< psubstratepcontact >>
+rect -42 -34 -38 -30
+rect -34 -34 -30 -30
+<< highvoltnsubcontact >>
+rect -42 7 -38 11
+rect -34 7 -30 11
+<< pad >>
+rect -6 50 -2 54
+rect 27 20 31 24
+rect -6 7 -2 11
+rect -50 -34 -46 -30
+rect -6 -31 -2 -27
+rect 38 1 42 5
+rect 27 -52 31 -48
+rect -50 -80 -46 -76
+rect 100 -20 104 -16
+rect 38 -80 42 -76
+use nand nand_0
+timestamp 1731253790
+transform 1 0 16 0 1 36
+box -16 -36 15 20
+use nand nand_1
+timestamp 1731253790
+transform 1 0 16 0 1 -45
+box -16 -36 15 20
+use nand nand_2
+timestamp 1731253790
+transform 1 0 89 0 1 -4
+box -16 -36 15 20
+<< labels >>
+rlabel metal1 -52 30 -52 30 3 D0
+rlabel metal1 -52 -10 -52 -10 3 S0
+rlabel metal1 57 7 57 7 1 node1
+rlabel metal1 57 -31 57 -31 1 node2
+rlabel metal1 108 -18 108 -18 7 out
+rlabel metal1 -17 -33 -17 -33 1 node3
+rlabel metal1 -43 -59 -43 -59 1 D
+rlabel metal2 -48 -40 -48 -40 1 gnd
+rlabel metal1 -19 9 -19 9 1 vdd
+<< end >>
